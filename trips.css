@@ -1,0 +1,45 @@
+.default-head{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+H1{
+    text-align: center;
+}
+
+.time-line{
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+   
+}
+
+
+.trip-2:hover,.trip-1:hover,.trip-3:hover,.trip-4:hover{
+  
+    cursor: default;
+    transform: scale(1.5);
+    -webkit-transition: transform 0.7s ease-in-out;
+    -moz-transition: transform 0.7s ease-in-out;
+    transition: transform 0.7s ease-in-out;
+    /* opacity: 0.4; */
+}
+
+
+/* .trip-1,.trip-2 ,.trip-3 ,.trip-4{
+animation: pulse 1000ms cubic-bezier(0.9, 0.7, 0.5, 0.9) infinite;
+} */
+
+@keyframes pulse {
+0% {
+  opacity: 0;
+}
+50% {
+  transform: scale(1.4);
+  opacity: 0.4;
+}
+}
+
+
